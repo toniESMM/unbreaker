@@ -101,6 +101,7 @@
     #input-box {
         background-color: gray;
         border: black solid;
+        z-index: 2;
     }
     .name {
         align-content: center;
