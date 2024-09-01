@@ -1,5 +1,5 @@
 addEventListener('DOMContentLoaded', () => {
-    if(window.innerWidth > 950 ) {
+    if(window.innerWidth > 815 ) {
         window.open('nondispo.html', '_top');
     }
     const section = document.querySelector('section');
