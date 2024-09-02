@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let availableKeywords = [
         {value:'dark white', url: "egain.html"},
-        {value:'begin night', url:"egain2.html"},
+        {value:'sky begin night', url:"egain2.html"},
         {value:'uptown bleumarine', url:"egain3.html"},
        {value:'uptown nature', url:"egain4.html"},
        {value:'pink world', url:"egain5.html"},
