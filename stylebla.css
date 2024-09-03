@@ -59,7 +59,11 @@ body {
     gap: 10px;
 }
 
-.form-container input {
+.lesblaz {
+    width: 45%;
+}
+
+ .input {
     display: block;
     width: 90%;
     padding: 0;

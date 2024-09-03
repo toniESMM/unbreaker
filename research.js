@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
        {value:'uptown nature', url:"egain4.html"},
        {value:'pink world', url:"egain5.html"},
        {value:'playa begin world', url:"egain6.html"},
+       {value:'dark secret', url:"egain7.html"},
+       {value:'silver armor', url:"egain8.html"},
     ];
 
     const resultBox = document.querySelector('.things');
