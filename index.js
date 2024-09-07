@@ -1,4 +1,4 @@
-    import { items } from './store.js';
+    // import { items } from './store.js';
 
     const nuits = document.getElementById('nuits');
     const blanches = document.getElementById('blanches');
@@ -25,7 +25,7 @@
         oranges
     ];
 
- export { objects };
+//  export { objects };
 
 
 
@@ -93,16 +93,22 @@
 
 
     let baelokonioso = [
-        { element: document.getElementById('produit1'), url: "egain.html" },
-        { element: document.getElementById('produit2'), url: "egain2.html" },
-        { element: document.getElementById('produit3'), url: "egain3.html" },
-        { element: document.getElementById('produit4'), url: "egain4.html" },
-        { element: document.getElementById('produit5'), url: "egain5.html" },
-        { element: document.getElementById('produit6'), url: "egain6.html" },
-        { element: document.getElementById('produit7'), url: "egain7.html" },
-        { element: document.getElementById('produit8'), url: "egain8.html" },
-        { element: document.getElementById('produit9'), url: "egain9.html" },
-        { element: document.getElementById('produit10'), url: "egain10.html" },
+        { element: document.getElementById('produit1'), url: "again.html" },
+        { element: document.getElementById('produit2'), url: "again2.html" },
+        { element: document.getElementById('produit3'), url: "again3.html" },
+        { element: document.getElementById('produit4'), url: "again4.html" },
+        { element: document.getElementById('produit5'), url: "again5.html" },
+        { element: document.getElementById('produit6'), url: "again6.html" },
+        { element: document.getElementById('produit7'), url: "again7.html" },
+        { element: document.getElementById('produit8'), url: "again8.html" },
+        { element: document.getElementById('produit9'), url: "again9.html" },
+        { element: document.getElementById('produit10'), url: "again10.html" },
+        { element: document.getElementById('produit11'), url: "again11.html" },
+        { element: document.getElementById('produit12'), url: "again12.html" },
+        { element: document.getElementById('produit13'), url: "again13.html" },
+        { element: document.getElementById('produit14'), url: "again14.html" },
+        { element: document.getElementById('produit15'), url: "again15.html" },
+        { element: document.getElementById('produit16'), url: "again16.html" },
     ];
 
     baelokonioso.forEach(({ element, url }) => {

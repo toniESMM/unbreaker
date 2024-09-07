@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const list = document.createElement("ul");
         list.className = "listoptions";
         const lielement = [
-            {name:'BOUTIQUE', url:"index.html"},
-            {name:'CATALOGUE', url:"catalogue.html"},
+            {name:'PRINCIPAL', url:"index.html"},
+            {name:'POUR ECRAN', url:"catalogue.html"},
             {name:'CONTACT', url:"#footer"},
             {name:'SETTINGS', url:"settings.html"},
         ];
@@ -98,14 +98,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     let availableKeywords = [
-        {value:'dark white', url: "egain.html"},
-        {value:'sky begin night', url:"egain2.html"},
-        {value:'uptown bleumarine', url:"egain3.html"},
-       {value:'uptown nature', url:"egain4.html"},
-       {value:'pink world', url:"egain5.html"},
-       {value:'playa begin world', url:"egain6.html"},
-       {value:'dark secret', url:"egain7.html"},
-       {value:'silver armor', url:"egain8.html"},
+        {value:'dark white', url: "again.html"},
+        {value:'sky begin night', url:"again2.html"},
+        {value:'uptown bleumarine', url:"again3.html"},
+       {value:'uptown nature', url:"again4.html"},
+       {value:'pink world', url:"again5.html"},
+       {value:'playa begin world', url:"again6.html"},
+       {value:'dark secret', url:"again7.html"},
+       {value:'silver armor', url:"again8.html"},
+       {value:'league of legends', url:"again11.html"},
+       {value:'gaming esp white', url:"again12.html"},
+       {value:'call of duty MW', url:"again13.html"},
+       {value:'rainbow six siege', url:"again14.html"},
+       {value:'starkIndustries', url:"again15.html"},
+       {value:'gaming esp orange', url:"again16.html"},
     ];
 
     const resultBox = document.querySelector('.things');

@@ -322,11 +322,18 @@
         height: 48vw;
         width: 50vw;
         justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
 
     .one {
-        width: 47vw;
+        width: 48vw;
+        height: min-content;
+    }
 
+    img {
+        width: min-content;
+        height: min-content;
     }
 
     h4 {

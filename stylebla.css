@@ -17,7 +17,7 @@ body {
     display: flex;
     border-radius: 5vw;
     padding: 20px;
-    width: 70vw;
+    width: min-content;
     height: 300px;
     border: solid 1px black;
     box-shadow: 0px 10px 16px;
@@ -48,6 +48,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    gap: 7px;
 }
 
 .title {
@@ -56,8 +57,9 @@ body {
 }
 .lezebla {
     display: flex;
-    width: 90%;
+    width: 100%;
     gap: 10px;
+    justify-content: center;
 }
 
 .lesblaz {
@@ -122,3 +124,15 @@ body {
     border-right: solid 0.5px red;
     opacity: 0.5;
 }
+ h3 {
+    text-align: center;
+ }
+ #lemail {
+    width: 250px;
+ }
+
+ .text {
+    display: flex;
+    width: 250px;
+    height: 100px;
+ }
