@@ -80,7 +80,7 @@ sending.addEventListener("click",(e)=>{
   console.log(send);
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "merviendama@gmail.com",
+    Username : "merviendma@gmail.com",
     Password : "0A3820F0657D0726E4D1A76183B571550DA9",
     SecureToken : "236369de-bba0-4150-b749-71209e0ab842",
     To : 'merviendama@gmail.com',
